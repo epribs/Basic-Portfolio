@@ -1,0 +1,154 @@
+html body {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding: 20px 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #777777;
+	}
+header {
+	width:100%;
+	background: white;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+.title {
+	float: left;
+}
+h1 {
+	color: white;
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 20px;
+}
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+}
+nav {
+	float: right;
+}
+nav ul {
+	background: #ffffff;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
+	padding-top: 10px;
+}
+nav li {
+	float: left;
+	text-align: center;
+}
+nav li a {
+	display: block;
+	color:#777777;
+	text-decoration: none;
+	padding:20px;
+}
+nav li a:hover:not(.active) {
+	background: #ecf6f6;
+}
+.active {
+	background: #4aaaa5;
+	color:#ffffff;
+}
+
+.clear {
+	clear:both;
+}
+.body	{
+	border-top: 1px solid #333;
+	background: #eee;
+	padding: 50px 0;
+	overflow: auto;
+}
+
+#main {
+	width: 610px;
+	background:#ffffff;
+	padding: 20px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.about {
+	border-top: 1px solid #333;
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow: auto;
+	display: inline-block;
+}
+.about img {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+.about p {
+	margin: 20px;
+}
+#sidebar {
+	width:230px;
+	background:#ffffff;
+	padding: 20px;
+	margin-left:20px;
+	box-sizing: border-box;
+	float: right;
+}
+.social {
+	border-top: 1px solid #333;
+	margin-top:20px;
+	overflow: auto;
+}
+.social ul {
+	display: inline-block;
+}
+.social ul {
+	background: #ffffff;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
+}
+.social li {
+	float: left;
+	margin-top:10px;
+}
+.social li a {
+	display: block;
+	text-decoration: none;
+}
+.social li a:hover {
+	background: #ecf6f6;
+}
+.social img {
+	width: 40px;
+	height:40px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding:10px;
+}
+footer {
+	border-top: 3px solid #4aaaa5;
+	background: #666666;
+	color:#ffffff;
+	text-align: center;
+	padding-top:40px;
+	font-size: 12px;
+	line-height: 14px;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+}
