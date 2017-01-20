@@ -144,6 +144,21 @@ nav li a:hover:not(.active) {
 form {
 	margin-top:20px;
 }
+form input {
+	width:50%;
+	color:#777777;
+	border: 1px solid #afafaf;
+}
+form textarea {
+	color:#777777;
+	border: 1px solid #afafaf;
+}
+form button {
+	background: #4aaaa5;
+	border: 1px solid #4aaaa5;
+	color: #ffffff;
+	padding: 10px;
+}
 footer {
 	border-top: 5px solid #4aaaa5;
 	background: #666666;
